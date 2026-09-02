@@ -15,6 +15,7 @@ const getSum = () => {
 	document.querySelector("table").appendChild(row)
   
 };
+getSum();
 
 getSumBtn.addEventListener("click", getSum);
 
